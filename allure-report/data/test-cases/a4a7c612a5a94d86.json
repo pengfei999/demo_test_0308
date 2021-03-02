@@ -1,0 +1,105 @@
+{
+  "uid" : "a4a7c612a5a94d86",
+  "name" : "list",
+  "fullName" : "testcases.api_login_list_test.TestCaseApiLoginList#test_start",
+  "historyId" : "fce54980696b5f53e884ae9e9ae680cd",
+  "time" : {
+    "start" : 1614584935330,
+    "stop" : 1614584935343,
+    "duration" : 13
+  },
+  "description" : "TestCase ID: 5c9f477e-4b5b-4aba-b2bd-7ed804e5969a",
+  "descriptionHtml" : "<p>TestCase ID: 5c9f477e-4b5b-4aba-b2bd-7ed804e5969a</p>\n",
+  "status" : "broken",
+  "statusMessage" : "httprunner.exceptions.VariableNotFound: username not found in {}",
+  "statusTrace" : "variable_name = 'username', variables_mapping = {}\n\n    def get_mapping_variable(\n        variable_name: Text, variables_mapping: VariablesMapping\n    ) -> Any:\n        \"\"\" get variable from variables_mapping.\n    \n        Args:\n            variable_name (str): variable name\n            variables_mapping (dict): variables mapping\n    \n        Returns:\n            mapping variable value.\n    \n        Raises:\n            exceptions.VariableNotFound: variable is not found.\n    \n        \"\"\"\n        # TODO: get variable from debugtalk module and environ\n        try:\n>           return variables_mapping[variable_name]\nE           KeyError: 'username'\n\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:229: KeyError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <testcases.api_login_list_test.TestCaseApiLoginList object at 0x000001FFD2F441F0>, param = None\n\n    def test_start(self, param: Dict = None) -> \"HttpRunner\":\n        \"\"\"main entrance, discovered by pytest\"\"\"\n        self.__init_tests__()\n        self.__project_meta = self.__project_meta or load_project_meta(\n            self.__config.path\n        )\n        self.__case_id = self.__case_id or str(uuid.uuid4())\n        self.__log_path = self.__log_path or os.path.join(\n            self.__project_meta.RootDir, \"logs\", f\"{self.__case_id}.run.log\"\n        )\n        log_handler = logger.add(self.__log_path, level=\"DEBUG\")\n    \n        # parse config name\n        config_variables = self.__config.variables\n        if param:\n            config_variables.update(param)\n        config_variables.update(self.__session_variables)\n        self.__config.name = parse_data(\n            self.__config.name, config_variables, self.__project_meta.functions\n        )\n    \n        if USE_ALLURE:\n            # update allure report meta\n            allure.dynamic.title(self.__config.name)\n            allure.dynamic.description(f\"TestCase ID: {self.__case_id}\")\n    \n        logger.info(\n            f\"Start to run testcase: {self.__config.name}, TestCase ID: {self.__case_id}\"\n        )\n    \n        try:\n>           return self.run_testcase(\n                TestCase(config=self.__config, teststeps=self.__teststeps)\n            )\n\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:455: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:357: in run_testcase\n    extract_mapping = self.__run_step(step)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:297: in __run_step\n    step_data = self.__run_step_testcase(step)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:246: in __run_step_testcase\n    testcase_cls()\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:384: in run\n    return self.run_testcase(testcase_obj)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:357: in run_testcase\n    extract_mapping = self.__run_step(step)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:295: in __run_step\n    step_data = self.__run_step_request(step)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:145: in __run_step_request\n    parsed_request_dict = parse_data(\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:416: in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:416: in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:405: in parse_data\n    return parse_string(raw_data, variables_mapping, functions_mapping)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:365: in parse_string\n    var_value = get_mapping_variable(var_name, variables_mapping)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvariable_name = 'username', variables_mapping = {}\n\n    def get_mapping_variable(\n        variable_name: Text, variables_mapping: VariablesMapping\n    ) -> Any:\n        \"\"\" get variable from variables_mapping.\n    \n        Args:\n            variable_name (str): variable name\n            variables_mapping (dict): variables mapping\n    \n        Returns:\n            mapping variable value.\n    \n        Raises:\n            exceptions.VariableNotFound: variable is not found.\n    \n        \"\"\"\n        # TODO: get variable from debugtalk module and environ\n        try:\n            return variables_mapping[variable_name]\n        except KeyError:\n>           raise exceptions.VariableNotFound(\n                f\"{variable_name} not found in {variables_mapping}\"\n            )\nE           httprunner.exceptions.VariableNotFound: username not found in {}\n\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:231: VariableNotFound",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 5c9f477e-4b5b-4aba-b2bd-7ed804e5969a",
+    "status" : "broken",
+    "statusMessage" : "httprunner.exceptions.VariableNotFound: username not found in {}",
+    "statusTrace" : "variable_name = 'username', variables_mapping = {}\n\n    def get_mapping_variable(\n        variable_name: Text, variables_mapping: VariablesMapping\n    ) -> Any:\n        \"\"\" get variable from variables_mapping.\n    \n        Args:\n            variable_name (str): variable name\n            variables_mapping (dict): variables mapping\n    \n        Returns:\n            mapping variable value.\n    \n        Raises:\n            exceptions.VariableNotFound: variable is not found.\n    \n        \"\"\"\n        # TODO: get variable from debugtalk module and environ\n        try:\n>           return variables_mapping[variable_name]\nE           KeyError: 'username'\n\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:229: KeyError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <testcases.api_login_list_test.TestCaseApiLoginList object at 0x000001FFD2F441F0>, param = None\n\n    def test_start(self, param: Dict = None) -> \"HttpRunner\":\n        \"\"\"main entrance, discovered by pytest\"\"\"\n        self.__init_tests__()\n        self.__project_meta = self.__project_meta or load_project_meta(\n            self.__config.path\n        )\n        self.__case_id = self.__case_id or str(uuid.uuid4())\n        self.__log_path = self.__log_path or os.path.join(\n            self.__project_meta.RootDir, \"logs\", f\"{self.__case_id}.run.log\"\n        )\n        log_handler = logger.add(self.__log_path, level=\"DEBUG\")\n    \n        # parse config name\n        config_variables = self.__config.variables\n        if param:\n            config_variables.update(param)\n        config_variables.update(self.__session_variables)\n        self.__config.name = parse_data(\n            self.__config.name, config_variables, self.__project_meta.functions\n        )\n    \n        if USE_ALLURE:\n            # update allure report meta\n            allure.dynamic.title(self.__config.name)\n            allure.dynamic.description(f\"TestCase ID: {self.__case_id}\")\n    \n        logger.info(\n            f\"Start to run testcase: {self.__config.name}, TestCase ID: {self.__case_id}\"\n        )\n    \n        try:\n>           return self.run_testcase(\n                TestCase(config=self.__config, teststeps=self.__teststeps)\n            )\n\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:455: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:357: in run_testcase\n    extract_mapping = self.__run_step(step)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:297: in __run_step\n    step_data = self.__run_step_testcase(step)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:246: in __run_step_testcase\n    testcase_cls()\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:384: in run\n    return self.run_testcase(testcase_obj)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:357: in run_testcase\n    extract_mapping = self.__run_step(step)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:295: in __run_step\n    step_data = self.__run_step_request(step)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py:145: in __run_step_request\n    parsed_request_dict = parse_data(\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:416: in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:416: in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:405: in parse_data\n    return parse_string(raw_data, variables_mapping, functions_mapping)\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:365: in parse_string\n    var_value = get_mapping_variable(var_name, variables_mapping)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvariable_name = 'username', variables_mapping = {}\n\n    def get_mapping_variable(\n        variable_name: Text, variables_mapping: VariablesMapping\n    ) -> Any:\n        \"\"\" get variable from variables_mapping.\n    \n        Args:\n            variable_name (str): variable name\n            variables_mapping (dict): variables mapping\n    \n        Returns:\n            mapping variable value.\n    \n        Raises:\n            exceptions.VariableNotFound: variable is not found.\n    \n        \"\"\"\n        # TODO: get variable from debugtalk module and environ\n        try:\n            return variables_mapping[variable_name]\n        except KeyError:\n>           raise exceptions.VariableNotFound(\n                f\"{variable_name} not found in {variables_mapping}\"\n            )\nE           httprunner.exceptions.VariableNotFound: username not found in {}\n\ne:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py:231: VariableNotFound",
+    "steps" : [ {
+      "name" : "step: login",
+      "time" : {
+        "start" : 1614584935337,
+        "stop" : 1614584935341,
+        "duration" : 4
+      },
+      "status" : "broken",
+      "statusMessage" : "httprunner.exceptions.VariableNotFound: username not found in {}\n",
+      "statusTrace" : "  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 357, in run_testcase\n    extract_mapping = self.__run_step(step)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 297, in __run_step\n    step_data = self.__run_step_testcase(step)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 246, in __run_step_testcase\n    testcase_cls()\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 384, in run\n    return self.run_testcase(testcase_obj)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 357, in run_testcase\n    extract_mapping = self.__run_step(step)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 295, in __run_step\n    step_data = self.__run_step_request(step)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 145, in __run_step_request\n    parsed_request_dict = parse_data(\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 416, in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 416, in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 405, in parse_data\n    return parse_string(raw_data, variables_mapping, functions_mapping)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 365, in parse_string\n    var_value = get_mapping_variable(var_name, variables_mapping)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 231, in get_mapping_variable\n    raise exceptions.VariableNotFound(\n",
+      "steps" : [ {
+        "name" : "step: $title",
+        "time" : {
+          "start" : 1614584935338,
+          "stop" : 1614584935340,
+          "duration" : 2
+        },
+        "status" : "broken",
+        "statusMessage" : "httprunner.exceptions.VariableNotFound: username not found in {}\n",
+        "statusTrace" : "  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 357, in run_testcase\n    extract_mapping = self.__run_step(step)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 295, in __run_step\n    step_data = self.__run_step_request(step)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\runner.py\", line 145, in __run_step_request\n    parsed_request_dict = parse_data(\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 416, in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 416, in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 405, in parse_data\n    return parse_string(raw_data, variables_mapping, functions_mapping)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 365, in parse_string\n    var_value = get_mapping_variable(var_name, variables_mapping)\n  File \"e:\\python3.8.2\\lib\\site-packages\\httprunner\\parser.py\", line 231, in get_mapping_variable\n    raise exceptions.VariableNotFound(\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "api_login_list_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseApiLoginList"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "12376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.api_login_list_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4a7c612a5a94d86.json",
+  "parameterValues" : [ ]
+}

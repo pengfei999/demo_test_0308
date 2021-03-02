@@ -1,0 +1,21 @@
+
+config:
+    name: list
+    base_url: http://api.keyou.site:8000
+    verify: False
+teststeps:
+-
+    name: login
+    testcase: testcases\api_login.yml
+-
+    name: get_list
+    request:
+        method: GET
+        url: /projects/
+        headers:
+            Authorization: JWT $token
+        params:
+            page: 1
+            size: 5
+    validate:
+        - eq: ["status_code", 200]

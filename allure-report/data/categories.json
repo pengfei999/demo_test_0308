@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "httprunner.exceptions.VariableNotFound: username not found in {}",
+      "children" : [ {
+        "name" : "list",
+        "uid" : "f82eb3333965fd73",
+        "parentUid" : "d957f6a4e5638edb1a5f0d21a55c5492",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614585501006,
+          "stop" : 1614585501017,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d957f6a4e5638edb1a5f0d21a55c5492"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

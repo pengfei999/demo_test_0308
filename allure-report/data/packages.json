@@ -1,0 +1,129 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "api_login_list_test",
+      "children" : [ {
+        "name" : "list",
+        "uid" : "f82eb3333965fd73",
+        "parentUid" : "76433719ccc2727309708a216df2f9fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614585501006,
+          "stop" : 1614585501017,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76433719ccc2727309708a216df2f9fa"
+    }, {
+      "name" : "api_login_test",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "c6b928545e786999",
+        "parentUid" : "307aaf9b0f3de8f6f0ef5d66346f5c84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614585501082,
+          "stop" : 1614585529163,
+          "duration" : 28081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "68c95f5ee6eec00a",
+        "parentUid" : "307aaf9b0f3de8f6f0ef5d66346f5c84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614585529168,
+          "stop" : 1614585532223,
+          "duration" : 3055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "65ed192a339215f2",
+        "parentUid" : "307aaf9b0f3de8f6f0ef5d66346f5c84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614585532230,
+          "stop" : 1614585534195,
+          "duration" : 1965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "405aeff26c7b9a5c",
+        "parentUid" : "307aaf9b0f3de8f6f0ef5d66346f5c84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614585534199,
+          "stop" : 1614585537344,
+          "duration" : 3145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "cf1a0940c3b81370",
+        "parentUid" : "307aaf9b0f3de8f6f0ef5d66346f5c84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614585537356,
+          "stop" : 1614585551862,
+          "duration" : 14506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "307aaf9b0f3de8f6f0ef5d66346f5c84"
+    }, {
+      "name" : "demo_testcase_ref_test",
+      "children" : [ {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "bbef30e9d963c18e",
+        "parentUid" : "fe238ff6bfa6b33b483e18ce74dab81d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614585551877,
+          "stop" : 1614585614991,
+          "duration" : 63114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe238ff6bfa6b33b483e18ce74dab81d"
+    }, {
+      "name" : "demo_testcase_request_test",
+      "children" : [ {
+        "name" : "request methods testcase with functions",
+        "uid" : "7f2585ef5946d213",
+        "parentUid" : "f0adfce74245a2f6a0d93b26acd6de40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614585614996,
+          "stop" : 1614585756758,
+          "duration" : 141762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0adfce74245a2f6a0d93b26acd6de40"
+    } ],
+    "uid" : "141fa05f02bf329144b0086cf92149a8"
+  } ]
+}

@@ -1,0 +1,32 @@
+
+config:
+    name: 登录
+    parameters:
+        title-username-password-status_code-body_msg: ${get_accounts()}
+#         - ["登录","keyou1", "123456",200,"token"]
+#         - ["登录","keyou1", "1234567",400,"no_field_errors"]
+ #        - ["登录","keyou122", "123456",200,"no_field_errors"]
+#    variables:
+#        username: keyou1
+#        password: 123456
+    base_url: http://api.keyou.site:8000
+    verify: False
+    export: [token]
+
+teststeps:
+-
+    name: $title
+    request:
+        method: POST
+        url: /user/login/
+        headers:
+            Content-Type: "application/json"
+        json:
+            username: $username
+            password: $password
+    extract:
+        token: body.token
+    validate:
+        - eq: ["status_code", $status_code]
+        - {"check": "body", "comparator": "contains", "expect": $body_msg}
+ #       - {"check": "body.user_id", "comparator": "eq", "expect": 2}
