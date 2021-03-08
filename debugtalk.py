@@ -12,15 +12,15 @@ def sum_two(m, n):
 
 
 '''
-{"title":"正常登录","username":"keyou1","password":"123456",
+{"biaoti":"正常登录","username":"keyou1","password":"123456",
  "status_code":200,"body_msg":"token"},
-{"title": "密码错误", "username": "keyou1", "password": "1234567",
+{"biaoti": "密码错误", "username": "keyou1", "password": "1234567",
  "status_code": 400, "body_msg": "no_field_errors"},
-{"title": "用户名错误", "username": "keyou1222", "password": "123456",
+{"biaoti": "用户名错误", "username": "keyou1222", "password": "123456",
  "status_code": 400, "body_msg": "no_field_errors"},
-{"title": "用户名为空", "username": "", "password": "123456",
+{"biaoti": "用户名为空", "username": "", "password": "123456",
  "status_code": 400, "body_msg": "username"},
-{"title": "密码为空", "username": "keyou1", "password": "",
+{"biaoti": "密码为空", "username": "keyou1", "password": "",
  "status_code": 400, "body_msg": "password"}
  '''
 
@@ -28,15 +28,15 @@ def sleep(n_secs):
     time.sleep(n_secs)
 def get_accounts():
     accounts=[
-        {"title": "正常登录", "username": "keyou1", "password": "123456",
+        {"biaoti": "正常登录", "username": "keyou1", "password": "123456",
          "status_code": 200, "body_msg": "token"},
-        {"title": "密码错误", "username": "keyou1", "password": "123456",
+        {"biaoti": "密码错误", "username": "keyou1", "password": "123456",
          "status_code": 200, "body_msg": "token"},
-        {"title": "用户名错误", "username": "keyou1", "password": "123456",
+        {"biaoti": "用户名错误", "username": "keyou1", "password": "123456",
          "status_code": 200, "body_msg": "token"},
-        {"title": "用户名为空", "username": "keyou1", "password": "123456",
+        {"biaoti": "用户名为空", "username": "keyou1", "password": "123456",
          "status_code": 200, "body_msg": "token"},
-        {"title": "密码为空", "username": "keyou1", "password": "123456",
+        {"biaoti": "密码为空", "username": "keyou1", "password": "123456",
          "status_code": 200, "body_msg": "token"}
 
      ]

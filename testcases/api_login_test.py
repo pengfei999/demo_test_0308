@@ -13,14 +13,14 @@ class TestCaseApiLogin(HttpRunner):
     @pytest.mark.parametrize(
         "param",
         Parameters(
-            {"title-username-password-status_code-body_msg": "${get_accounts()}"}
+            {"biaoti-username-password-status_code-body_msg": "${get_accounts()}"}
         ),
     )
     def test_start(self, param):
         super().test_start(param)
 
     config = (
-        Config("登录")
+        Config("$biaoti")
         .base_url("http://api.keyou.site:8000")
         .verify(False)
         .export(*["token"])
@@ -28,7 +28,7 @@ class TestCaseApiLogin(HttpRunner):
 
     teststeps = [
         Step(
-            RunRequest("$title")
+            RunRequest("登录")
             .post("/user/login/")
             .with_headers(**{"Content-Type": "application/json"})
             .with_json({"username": "$username", "password": "$password"})
@@ -43,3 +43,4 @@ class TestCaseApiLogin(HttpRunner):
 
 if __name__ == "__main__":
     TestCaseApiLogin().test_start()
+    print("test")

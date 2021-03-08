@@ -1,4 +1,0 @@
-2021-03-01 16:03:36.024 | INFO     | httprunner.runner:test_start:450 - Start to run testcase: list, TestCase ID: e2d26816-da96-42e2-afa8-8d5d966dcb8c
-2021-03-01 16:03:36.025 | INFO     | httprunner.runner:__run_step:292 - run step begin: login >>>>>>
-2021-03-01 16:03:36.026 | INFO     | httprunner.runner:__run_step:292 - run step begin: $title >>>>>>
-2021-03-01 16:03:36.027 | INFO     | httprunner.runner:test_start:460 - generate testcase log: E:\demo_test\logs\e2d26816-da96-42e2-afa8-8d5d966dcb8c.run.log
