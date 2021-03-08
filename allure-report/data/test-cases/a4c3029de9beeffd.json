@@ -1,0 +1,85 @@
+{
+  "uid" : "a4c3029de9beeffd",
+  "name" : "登录",
+  "fullName" : "testcases.api_login_test.TestCaseApiLogin#test_start",
+  "historyId" : "9f6c075614fc35907413b62fdbb771b0",
+  "time" : {
+    "start" : 1614756458021,
+    "stop" : 1614756458485,
+    "duration" : 464
+  },
+  "description" : "TestCase ID: 9125a2d1-2d38-4f0d-ab80-01112bee2916",
+  "descriptionHtml" : "<p>TestCase ID: 9125a2d1-2d38-4f0d-ab80-01112bee2916</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 9125a2d1-2d38-4f0d-ab80-01112bee2916",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: $title",
+      "time" : {
+        "start" : 1614756458024,
+        "stop" : 1614756458485,
+        "duration" : 461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "api_login_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseApiLogin"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "16148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.api_login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4c3029de9beeffd.json",
+  "parameterValues" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+}

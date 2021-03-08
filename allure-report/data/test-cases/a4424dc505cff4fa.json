@@ -1,0 +1,85 @@
+{
+  "uid" : "a4424dc505cff4fa",
+  "name" : "登录",
+  "fullName" : "testcases.api_login_test.TestCaseApiLogin#test_start",
+  "historyId" : "9f6c075614fc35907413b62fdbb771b0",
+  "time" : {
+    "start" : 1614759831284,
+    "stop" : 1614759831475,
+    "duration" : 191
+  },
+  "description" : "TestCase ID: 95bd7bd4-a0d8-4784-b90c-1c69406a8c4b",
+  "descriptionHtml" : "<p>TestCase ID: 95bd7bd4-a0d8-4784-b90c-1c69406a8c4b</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 95bd7bd4-a0d8-4784-b90c-1c69406a8c4b",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: $biaoti",
+      "time" : {
+        "start" : 1614759831287,
+        "stop" : 1614759831474,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "api_login_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseApiLogin"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "19392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.api_login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4424dc505cff4fa.json",
+  "parameterValues" : [ "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+}

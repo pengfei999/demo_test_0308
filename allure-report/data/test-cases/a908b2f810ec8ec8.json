@@ -1,0 +1,85 @@
+{
+  "uid" : "a908b2f810ec8ec8",
+  "name" : "登录",
+  "fullName" : "testcases.api_login_test.TestCaseApiLogin#test_start",
+  "historyId" : "a194d43598a857d21230b4a780a24cbb",
+  "time" : {
+    "start" : 1614756457586,
+    "stop" : 1614756457796,
+    "duration" : 210
+  },
+  "description" : "TestCase ID: fc085cf4-815f-4a97-a8a6-ea807fcd4550",
+  "descriptionHtml" : "<p>TestCase ID: fc085cf4-815f-4a97-a8a6-ea807fcd4550</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: fc085cf4-815f-4a97-a8a6-ea807fcd4550",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: $title",
+      "time" : {
+        "start" : 1614756457588,
+        "stop" : 1614756457795,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "api_login_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseApiLogin"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "16148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.api_login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a908b2f810ec8ec8.json",
+  "parameterValues" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+}

@@ -1,0 +1,166 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "api_login_api_test",
+      "children" : [ {
+        "name" : "TestCaseApiLoginApi",
+        "children" : [ {
+          "name" : "登录",
+          "uid" : "bf6143512847dc2a",
+          "parentUid" : "9c81c5f721bd56d04941e9d5bdd3f6ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911838487,
+            "stop" : 1614911839459,
+            "duration" : 972
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9c81c5f721bd56d04941e9d5bdd3f6ea"
+      } ],
+      "uid" : "a469fbd21868d1745e537995aae908dc"
+    }, {
+      "name" : "api_login_list_test",
+      "children" : [ {
+        "name" : "TestCaseApiLoginList",
+        "children" : [ {
+          "name" : "获取列表",
+          "uid" : "77972e35ee79bd53",
+          "parentUid" : "bf03ffa3e18e755ea1fa74cdcdc0aec2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911839461,
+            "stop" : 1614911840376,
+            "duration" : 915
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bf03ffa3e18e755ea1fa74cdcdc0aec2"
+      } ],
+      "uid" : "d98b044026857a4bf4abd17b4f9a6b9d"
+    }, {
+      "name" : "api_login_test",
+      "children" : [ {
+        "name" : "TestCaseApiLogin",
+        "children" : [ {
+          "name" : "正常登录",
+          "uid" : "fbec838526f3538",
+          "parentUid" : "b3ca88affb5074cca36398b23eb8a0a2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911840379,
+            "stop" : 1614911840830,
+            "duration" : 451
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'biaoti': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+        }, {
+          "name" : "密码错误",
+          "uid" : "d5002098664b5e57",
+          "parentUid" : "b3ca88affb5074cca36398b23eb8a0a2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911840833,
+            "stop" : 1614911841036,
+            "duration" : 203
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'biaoti': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+        }, {
+          "name" : "用户名错误",
+          "uid" : "7cca2e8d6675203e",
+          "parentUid" : "b3ca88affb5074cca36398b23eb8a0a2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911841038,
+            "stop" : 1614911841253,
+            "duration" : 215
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+        }, {
+          "name" : "用户名为空",
+          "uid" : "362b40d8f8378e9c",
+          "parentUid" : "b3ca88affb5074cca36398b23eb8a0a2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911841256,
+            "stop" : 1614911841471,
+            "duration" : 215
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'biaoti': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+        }, {
+          "name" : "密码为空",
+          "uid" : "1897827ae88d3700",
+          "parentUid" : "b3ca88affb5074cca36398b23eb8a0a2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911841478,
+            "stop" : 1614911841680,
+            "duration" : 202
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+        } ],
+        "uid" : "b3ca88affb5074cca36398b23eb8a0a2"
+      } ],
+      "uid" : "809d4e89ddd96e1f79ad8709ffb5009d"
+    }, {
+      "name" : "demo_testcase_ref_test",
+      "children" : [ {
+        "name" : "TestCaseDemoTestcaseRef",
+        "children" : [ {
+          "name" : "request methods testcase: reference testcase",
+          "uid" : "6c9f053060cb40f2",
+          "parentUid" : "906147ac04e51d17a32829b9ddbc41b6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911841684,
+            "stop" : 1614911844572,
+            "duration" : 2888
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "906147ac04e51d17a32829b9ddbc41b6"
+      } ],
+      "uid" : "ed9e8b0c118c32fd656c753f380e8553"
+    }, {
+      "name" : "demo_testcase_request_test",
+      "children" : [ {
+        "name" : "TestCaseDemoTestcaseRequest",
+        "children" : [ {
+          "name" : "request methods testcase with functions",
+          "uid" : "8c114cf0b86c0355",
+          "parentUid" : "b1fba04e1e1831e2bc7ecf723de54fba",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614911844574,
+            "stop" : 1614911846204,
+            "duration" : 1630
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b1fba04e1e1831e2bc7ecf723de54fba"
+      } ],
+      "uid" : "262dd42309f94ea55572adbce9857d95"
+    } ],
+    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+  } ]
+}

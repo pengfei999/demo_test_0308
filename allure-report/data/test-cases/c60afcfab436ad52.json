@@ -1,0 +1,118 @@
+{
+  "uid" : "c60afcfab436ad52",
+  "name" : "request methods testcase with functions",
+  "fullName" : "testcases.demo_testcase_request_test.TestCaseDemoTestcaseRequest#test_start",
+  "historyId" : "0518d6be3b870a79c39cbdd5d5e7e8aa",
+  "time" : {
+    "start" : 1614759672309,
+    "stop" : 1614759673710,
+    "duration" : 1401
+  },
+  "description" : "TestCase ID: 8941b335-3e0e-4e34-a225-f564df8ae6c5",
+  "descriptionHtml" : "<p>TestCase ID: 8941b335-3e0e-4e34-a225-f564df8ae6c5</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 8941b335-3e0e-4e34-a225-f564df8ae6c5",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: get with params",
+      "time" : {
+        "start" : 1614759672320,
+        "stop" : 1614759673272,
+        "duration" : 952
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step: post raw text",
+      "time" : {
+        "start" : 1614759673272,
+        "stop" : 1614759673489,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step: post form data",
+      "time" : {
+        "start" : 1614759673489,
+        "stop" : 1614759673709,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e646209b052e164",
+      "name" : "stderr",
+      "source" : "e646209b052e164.txt",
+      "type" : "text/plain",
+      "size" : 9903
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "demo_testcase_request_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseDemoTestcaseRequest"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "15840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.demo_testcase_request_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c60afcfab436ad52.json",
+  "parameterValues" : [ ]
+}

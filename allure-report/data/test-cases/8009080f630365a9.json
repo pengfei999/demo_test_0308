@@ -1,0 +1,112 @@
+{
+  "uid" : "8009080f630365a9",
+  "name" : "list",
+  "fullName" : "testcases.api_login_list_test.TestCaseApiLoginList#test_start",
+  "historyId" : "fce54980696b5f53e884ae9e9ae680cd",
+  "time" : {
+    "start" : 1614735794175,
+    "stop" : 1614735794545,
+    "duration" : 370
+  },
+  "description" : "TestCase ID: 0a5c4100-3d0e-4265-8657-f4bd2dfae93a",
+  "descriptionHtml" : "<p>TestCase ID: 0a5c4100-3d0e-4265-8657-f4bd2dfae93a</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 0a5c4100-3d0e-4265-8657-f4bd2dfae93a",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: login",
+      "time" : {
+        "start" : 1614735794179,
+        "stop" : 1614735794426,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: $title",
+        "time" : {
+          "start" : 1614735794179,
+          "stop" : 1614735794425,
+          "duration" : 246
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "step: get_list",
+      "time" : {
+        "start" : 1614735794426,
+        "stop" : 1614735794544,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "api_login_list_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseApiLoginList"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "10668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.api_login_list_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8009080f630365a9.json",
+  "parameterValues" : [ ]
+}

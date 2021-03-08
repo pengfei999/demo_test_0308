@@ -1,0 +1,2671 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MS-DEEXUVTYRWMC",
+    "children" : [ {
+      "name" : "17296-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "9764b4e5b68b2917",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758597478,
+          "stop" : 1614758597698,
+          "duration" : 220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "899260b8c76c7395",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758596980,
+          "stop" : 1614758597193,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "ce0ce6f8b6b7a3cd",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758598350,
+          "stop" : 1614758598572,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "6390a461169f2d6a",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758598134,
+          "stop" : 1614758598347,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "2f9b212a7bc53040",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758598578,
+          "stop" : 1614758600931,
+          "duration" : 2353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "574d702ba79be17a",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758597195,
+          "stop" : 1614758597476,
+          "duration" : 281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "77d261504b441adc",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758597706,
+          "stop" : 1614758597917,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "90ff5c9e967ebe12",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758600945,
+          "stop" : 1614758602392,
+          "duration" : 1447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "c0d663a835064271",
+        "parentUid" : "d334cc2d1b1851794ef8747b3bed0e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614758597920,
+          "stop" : 1614758598129,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "d334cc2d1b1851794ef8747b3bed0e40"
+    }, {
+      "name" : "15316-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "cb0ef003db51d47",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755867292,
+          "stop" : 1614755867483,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "778a1a57a37369f6",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755866407,
+          "stop" : 1614755866619,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "97c32acd59154408",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755867701,
+          "stop" : 1614755867911,
+          "duration" : 210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "1c35a00d6dd47e68",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755867487,
+          "stop" : 1614755867698,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "9c8b0eb8c98e2835",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755866894,
+          "stop" : 1614755867100,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "fd6f393f83fb3110",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755867103,
+          "stop" : 1614755867289,
+          "duration" : 186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "ea6e2b9f53d96e22",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755866622,
+          "stop" : 1614755866890,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "bf8ed24906375685",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755867918,
+          "stop" : 1614755870878,
+          "duration" : 2960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "454123f9ae706075",
+        "parentUid" : "c7465c2f810655023e6ec978f1f6f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755870885,
+          "stop" : 1614755872279,
+          "duration" : 1394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7465c2f810655023e6ec978f1f6f1b3"
+    }, {
+      "name" : "19392-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "5b7ec7e1ea0f2b1",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759831092,
+          "stop" : 1614759831280,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "47c8d9ca0e379b99",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759830647,
+          "stop" : 1614759830859,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "a4424dc505cff4fa",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759831284,
+          "stop" : 1614759831475,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "1b123e2ed6ae3b7c",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759830437,
+          "stop" : 1614759830644,
+          "duration" : 207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "41dc8423003cd2fb",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759833613,
+          "stop" : 1614759835009,
+          "duration" : 1396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "d9a3056761233d9d",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759831478,
+          "stop" : 1614759833610,
+          "duration" : 2132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "d9c7dc2b29976dba",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759829944,
+          "stop" : 1614759830143,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "9b2ce9982dc10210",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759830146,
+          "stop" : 1614759830435,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "90841634c625232c",
+        "parentUid" : "3d582755302c55da934ea10f98dda2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759830863,
+          "stop" : 1614759831088,
+          "duration" : 225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "3d582755302c55da934ea10f98dda2eb"
+    }, {
+      "name" : "14444-MainThread",
+      "children" : [ {
+        "name" : "request methods testcase with functions",
+        "uid" : "750959191f805a93",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757060446,
+          "stop" : 1614757061810,
+          "duration" : 1364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "b3d108e42ae2a57",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757058330,
+          "stop" : 1614757058524,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "7515473af61c2c5b",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757056883,
+          "stop" : 1614757057394,
+          "duration" : 511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "4d9f16efbaecd7f3",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757057686,
+          "stop" : 1614757057893,
+          "duration" : 207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "5220f262f4056ad2",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757058761,
+          "stop" : 1614757060443,
+          "duration" : 1682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "f9030e745c7ae5d8",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757058528,
+          "stop" : 1614757058751,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "a5b712b63f2103dc",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757058102,
+          "stop" : 1614757058325,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "44764d90d30719a8",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757057897,
+          "stop" : 1614757058099,
+          "duration" : 202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "712399f1e38316d2",
+        "parentUid" : "09a4c9e71550ace3724bf9ac479c39da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757057397,
+          "stop" : 1614757057680,
+          "duration" : 283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09a4c9e71550ace3724bf9ac479c39da"
+    }, {
+      "name" : "5784-MainThread",
+      "children" : [ {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "6b35cc6b2da5d1dc",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736130854,
+          "stop" : 1614736132563,
+          "duration" : 1709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "e55a3af172e1d992",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736130244,
+          "stop" : 1614736130430,
+          "duration" : 186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "bc2583701362bc07",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736130646,
+          "stop" : 1614736130845,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "87ca761cf4254bf1",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736129319,
+          "stop" : 1614736129543,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "9ac7df84c8b9cb7d",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736129546,
+          "stop" : 1614736129805,
+          "duration" : 259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "bf276ab18f0cf76f",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736130433,
+          "stop" : 1614736130642,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "b4e793f2ba9093b0",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736132565,
+          "stop" : 1614736133959,
+          "duration" : 1394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "b6db9159328766bc",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736130038,
+          "stop" : 1614736130234,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "8214ffd434e9aaea",
+        "parentUid" : "2bdc4e7800684f12a0eb02bc2ef931dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736129809,
+          "stop" : 1614736130028,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "2bdc4e7800684f12a0eb02bc2ef931dd"
+    }, {
+      "name" : "8028-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "feaf6470f6404b33",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736937918,
+          "stop" : 1614736938129,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "1ce0556513a85a38",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736940773,
+          "stop" : 1614736942146,
+          "duration" : 1373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "3bba54289554323f",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736936942,
+          "stop" : 1614736937443,
+          "duration" : 501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "26496c7931d1b93",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736938361,
+          "stop" : 1614736938558,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "29403b854698b173",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736938561,
+          "stop" : 1614736938762,
+          "duration" : 201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "50e64ab10e47910c",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736938135,
+          "stop" : 1614736938358,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "7c9fb6e33cf265b5",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736937714,
+          "stop" : 1614736937912,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "755fcee0b3c9efa6",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736937446,
+          "stop" : 1614736937709,
+          "duration" : 263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "4fe54ec2341e2f73",
+        "parentUid" : "2d89c4342a20202e3341f734551260b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736938766,
+          "stop" : 1614736940757,
+          "duration" : 1991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d89c4342a20202e3341f734551260b1"
+    }, {
+      "name" : "3812-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "bf6143512847dc2a",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911838487,
+          "stop" : 1614911839459,
+          "duration" : 972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "77972e35ee79bd53",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911839461,
+          "stop" : 1614911840376,
+          "duration" : 915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "8c114cf0b86c0355",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911844574,
+          "stop" : 1614911846204,
+          "duration" : 1630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "正常登录",
+        "uid" : "fbec838526f3538",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911840379,
+          "stop" : 1614911840830,
+          "duration" : 451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "用户名错误",
+        "uid" : "7cca2e8d6675203e",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911841038,
+          "stop" : 1614911841253,
+          "duration" : 215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "密码为空",
+        "uid" : "1897827ae88d3700",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911841478,
+          "stop" : 1614911841680,
+          "duration" : 202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "密码错误",
+        "uid" : "d5002098664b5e57",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911840833,
+          "stop" : 1614911841036,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "6c9f053060cb40f2",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911841684,
+          "stop" : 1614911844572,
+          "duration" : 2888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户名为空",
+        "uid" : "362b40d8f8378e9c",
+        "parentUid" : "6bf11a9126d1404f0380f1b3f6d1c6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614911841256,
+          "stop" : 1614911841471,
+          "duration" : 215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "6bf11a9126d1404f0380f1b3f6d1c6ff"
+    }, {
+      "name" : "10668-MainThread",
+      "children" : [ {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "8b0aa2bd63c4af8c",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735795699,
+          "stop" : 1614735797437,
+          "duration" : 1738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "32e8523ae01f5f19",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735795479,
+          "stop" : 1614735795699,
+          "duration" : 220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "76f725d00c0086b2",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735795245,
+          "stop" : 1614735795472,
+          "duration" : 227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "93c94b7f83ce696c",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735795012,
+          "stop" : 1614735795241,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "c1d6daa7282a682a",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735794822,
+          "stop" : 1614735795008,
+          "duration" : 186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "278c2a2bfc1605cf",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735797437,
+          "stop" : 1614735798857,
+          "duration" : 1420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "list",
+        "uid" : "8009080f630365a9",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735794175,
+          "stop" : 1614735794545,
+          "duration" : 370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "70e13d0754ad4f74",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735793628,
+          "stop" : 1614735794172,
+          "duration" : 544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "1d8d43d4a46aa3f8",
+        "parentUid" : "73afd92724c71cf0d5681fd16e286475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614735794548,
+          "stop" : 1614735794819,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "73afd92724c71cf0d5681fd16e286475"
+    }, {
+      "name" : "15840-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "359938a35792f916",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759669456,
+          "stop" : 1614759669669,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "8bed9795135dd6",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759670328,
+          "stop" : 1614759670542,
+          "duration" : 214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "b04d6cfa791c14e9",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759669194,
+          "stop" : 1614759669449,
+          "duration" : 255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "b9951c3358d9dda8",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759669673,
+          "stop" : 1614759669873,
+          "duration" : 200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "db371bfc2a350d62",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759670552,
+          "stop" : 1614759672294,
+          "duration" : 1742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "32c5adc35d914188",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759668959,
+          "stop" : 1614759669188,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "548426edfdcca673",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759669891,
+          "stop" : 1614759670114,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "c60afcfab436ad52",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759672309,
+          "stop" : 1614759673710,
+          "duration" : 1401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "b808aa1097d79fff",
+        "parentUid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759670123,
+          "stop" : 1614759670323,
+          "duration" : 200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "e92aae4e0fb3e2e8ec7dbfe087eaa887"
+    }, {
+      "name" : "12772-MainThread",
+      "children" : [ {
+        "name" : "获取列表",
+        "uid" : "b62145e3ff7048c4",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737131942,
+          "stop" : 1614737132217,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "cbe8586f1dd5d7c0",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737132676,
+          "stop" : 1614737132899,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "605b664f733112c8",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737132454,
+          "stop" : 1614737132676,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "fac405bcc24ba9",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737136346,
+          "stop" : 1614737137763,
+          "duration" : 1417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "75615fca4d7c3823",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737131734,
+          "stop" : 1614737131942,
+          "duration" : 208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "72a1ad0dab25d708",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737132233,
+          "stop" : 1614737132454,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "81ac3113c922aee5",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737132899,
+          "stop" : 1614737133105,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "62ad9952d4c3e22f",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737133308,
+          "stop" : 1614737136330,
+          "duration" : 3022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "20af31c14999c58e",
+        "parentUid" : "05b9fff45663e2541d991143737f1918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614737133105,
+          "stop" : 1614737133292,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "05b9fff45663e2541d991143737f1918"
+    }, {
+      "name" : "15144-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "cf6b52ff51e82323",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678245523,
+          "stop" : 1614678245757,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "f093656668b1f89a",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678245757,
+          "stop" : 1614678246005,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "list",
+        "uid" : "f505a10d265ed0ae",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678244153,
+          "stop" : 1614678244659,
+          "duration" : 506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "1b8cf12324521aaf",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678246009,
+          "stop" : 1614678248022,
+          "duration" : 2013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "9e475f59b286d1ad",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678243331,
+          "stop" : 1614678244151,
+          "duration" : 820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "27790e6ed5d71b4e",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678245286,
+          "stop" : 1614678245520,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "d0bbd49b4433649",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678248026,
+          "stop" : 1614678249593,
+          "duration" : 1567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "1ea8cca0a154e5bf",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678244659,
+          "stop" : 1614678245002,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "7b03afa748a48967",
+        "parentUid" : "d3fa3509c68413c82df24c91e1400b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614678245005,
+          "stop" : 1614678245282,
+          "duration" : 277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "d3fa3509c68413c82df24c91e1400b79"
+    }, {
+      "name" : "1508-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "e8eb1552635fc621",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756891958,
+          "stop" : 1614756892172,
+          "duration" : 214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "1be78b08fba54c14",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756893491,
+          "stop" : 1614756895457,
+          "duration" : 1966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "365fef4e6d4f5103",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756892175,
+          "stop" : 1614756892456,
+          "duration" : 281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "eab9ac2995028e46",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756892668,
+          "stop" : 1614756892865,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "f472e869cee90f99",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756892868,
+          "stop" : 1614756893057,
+          "duration" : 189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "f8bd1d5b63251cee",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756895460,
+          "stop" : 1614756896872,
+          "duration" : 1412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "d57e4240f9adbad6",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756893290,
+          "stop" : 1614756893486,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "31c6cd11874f815b",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756893060,
+          "stop" : 1614756893287,
+          "duration" : 227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "78197c9495037a90",
+        "parentUid" : "79d7d73533000f33c2e9419bf0561e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756892466,
+          "stop" : 1614756892665,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "79d7d73533000f33c2e9419bf0561e7e"
+    }, {
+      "name" : "10844-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "c8f0ce758b4e7ba7",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757388046,
+          "stop" : 1614757388259,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "c5633bc158d6ad5f",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757387360,
+          "stop" : 1614757387578,
+          "duration" : 218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "63e2e2d00f5b14ed",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757388496,
+          "stop" : 1614757390539,
+          "duration" : 2043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "1de89132fe620afe",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757388263,
+          "stop" : 1614757388491,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "1976c4700d1ec389",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757387818,
+          "stop" : 1614757388042,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "f1c0d1a94345fb7a",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757387105,
+          "stop" : 1614757387354,
+          "duration" : 249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "b300ae2799232bf3",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757387583,
+          "stop" : 1614757387814,
+          "duration" : 231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "15768be6f03814af",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757390545,
+          "stop" : 1614757391951,
+          "duration" : 1406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "68dcb4dd4e92e9cf",
+        "parentUid" : "f0ca47c5d614038b79a30776ceb5ab18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614757386877,
+          "stop" : 1614757387100,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0ca47c5d614038b79a30776ceb5ab18"
+    }, {
+      "name" : "2032-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "ffcea145fb3bb40d",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736006802,
+          "stop" : 1614736007026,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "list",
+        "uid" : "215d5f8b92c42216",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736005839,
+          "stop" : 1614736006114,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "6fac7e4f61c64817",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736008954,
+          "stop" : 1614736010705,
+          "duration" : 1751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "9c8a412197e2679a",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736006332,
+          "stop" : 1614736006583,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "8ab4d3d1edf15ca8",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736007026,
+          "stop" : 1614736007238,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "c00dc034c5032a89",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736005618,
+          "stop" : 1614736005839,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "440da357d0a30ca3",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736006114,
+          "stop" : 1614736006332,
+          "duration" : 218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "c26d5ae5d85c8610",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736007238,
+          "stop" : 1614736008938,
+          "duration" : 1700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "edbbb1ee09bdadb0",
+        "parentUid" : "cb8ae9659f24c90f66800a82349cd77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614736006583,
+          "stop" : 1614736006786,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "cb8ae9659f24c90f66800a82349cd77e"
+    }, {
+      "name" : "15528-MainThread",
+      "children" : [ {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "e47c8c812528253",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759067106,
+          "stop" : 1614759068973,
+          "duration" : 1867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "e2fa7a4816d5d20f",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759068977,
+          "stop" : 1614759070388,
+          "duration" : 1411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "295dc635b583756d",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759066895,
+          "stop" : 1614759067103,
+          "duration" : 208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "c75c6b4fb86e6b99",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759066067,
+          "stop" : 1614759066272,
+          "duration" : 205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "a3d2ba6f26d06240",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759066276,
+          "stop" : 1614759066470,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "52b6e68f8dc947fb",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759065555,
+          "stop" : 1614759065793,
+          "duration" : 238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "81cfea1da09834d4",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759066472,
+          "stop" : 1614759066665,
+          "duration" : 193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "d914ca386bb684f8",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759065796,
+          "stop" : 1614759066065,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "fb103979f9521845",
+        "parentUid" : "577e4a304698ce2e2e2221db3885ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759066668,
+          "stop" : 1614759066877,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "577e4a304698ce2e2e2221db3885ba5d"
+    }, {
+      "name" : "16392-MainThread",
+      "children" : [ {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "ebf20f47637a673c",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762200344,
+          "stop" : 1614762202652,
+          "duration" : 2308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "密码为空",
+        "uid" : "b3f672f34bac79d5",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762200109,
+          "stop" : 1614762200339,
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "正常登录",
+        "uid" : "f1519b08895a3db1",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762199159,
+          "stop" : 1614762199389,
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "f303f08b3dfe5c52",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762198641,
+          "stop" : 1614762198863,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "密码错误",
+        "uid" : "a76f3ce3daeb5d1c",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762199394,
+          "stop" : 1614762199617,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "e8e05a3bd54e101e",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762202660,
+          "stop" : 1614762204072,
+          "duration" : 1412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户名为空",
+        "uid" : "70d963924481d6bf",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762199888,
+          "stop" : 1614762200105,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "用户名错误",
+        "uid" : "d35f64f603b10372",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762199630,
+          "stop" : 1614762199883,
+          "duration" : 253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "86b7bdf4abff8e9e",
+        "parentUid" : "bdf47e77f98a595d13e60d031afdfb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762198867,
+          "stop" : 1614762199154,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdf47e77f98a595d13e60d031afdfb33"
+    }, {
+      "name" : "17768-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "718971e16901941b",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759482698,
+          "stop" : 1614759482947,
+          "duration" : 249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "2df698ee29bbf198",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759482468,
+          "stop" : 1614759482689,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "1b5f7bda0bd92f6f",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759481890,
+          "stop" : 1614759482149,
+          "duration" : 259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "e6cbe67ec60c72b0",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759483169,
+          "stop" : 1614759483389,
+          "duration" : 220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "28af4dd19c1bbdd5",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759482964,
+          "stop" : 1614759483165,
+          "duration" : 201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "790fab1f3fccbd7b",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759485449,
+          "stop" : 1614759486855,
+          "duration" : 1406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "7616043b0e5b1d42",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759482154,
+          "stop" : 1614759482463,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "eac7060da5109f9d",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759483592,
+          "stop" : 1614759485442,
+          "duration" : 1850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "d23aff7887d79a8a",
+        "parentUid" : "661f9ed40b0d0f005e15925f5c1a7d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614759483396,
+          "stop" : 1614759483586,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "661f9ed40b0d0f005e15925f5c1a7d06"
+    }, {
+      "name" : "16148-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "a908b2f810ec8ec8",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756457586,
+          "stop" : 1614756457796,
+          "duration" : 210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "9326452e885d4f38",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756457371,
+          "stop" : 1614756457582,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "f2b0b95f32e42b82",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756456198,
+          "stop" : 1614756456870,
+          "duration" : 672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "faacf14028ea8369",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756456874,
+          "stop" : 1614756457159,
+          "duration" : 285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "a4c3029de9beeffd",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756458021,
+          "stop" : 1614756458485,
+          "duration" : 464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "f8c17fd0104895cc",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756461435,
+          "stop" : 1614756462814,
+          "duration" : 1379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "9ca97a544c6f2772",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756458488,
+          "stop" : 1614756461432,
+          "duration" : 2944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "d67f7a8d6c1c452c",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756457166,
+          "stop" : 1614756457368,
+          "duration" : 202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "c8b3ff34698ae87",
+        "parentUid" : "a47430bd896a17553937057ad238cc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614756457799,
+          "stop" : 1614756458016,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "a47430bd896a17553937057ad238cc30"
+    }, {
+      "name" : "10044-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "dab18863b22e2704",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738527420,
+          "stop" : 1614738527929,
+          "duration" : 509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "3a29a18055faba5d",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738531008,
+          "stop" : 1614738532427,
+          "duration" : 1419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "c9830085ebff55e6",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738525646,
+          "stop" : 1614738526385,
+          "duration" : 739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "f1c3187a0f085ab",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738528573,
+          "stop" : 1614738528776,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "fbbc294f3173371",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738528162,
+          "stop" : 1614738528381,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "7461c2da34e9b528",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738526388,
+          "stop" : 1614738527415,
+          "duration" : 1027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "1fc142428a321615",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738528385,
+          "stop" : 1614738528557,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "25da6c5b8636f3ec",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738527929,
+          "stop" : 1614738528146,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "7a820f5f4fa96ce5",
+        "parentUid" : "5d6954820a7f726e70a0827f9607815e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614738528780,
+          "stop" : 1614738531008,
+          "duration" : 2228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d6954820a7f726e70a0827f9607815e"
+    }, {
+      "name" : "3888-MainThread",
+      "children" : [ {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "923d94369a93b672",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755670956,
+          "stop" : 1614755673241,
+          "duration" : 2285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "15ab9392948184b2",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755670026,
+          "stop" : 1614755670222,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "40b18b0666b12d88",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755668821,
+          "stop" : 1614755669355,
+          "duration" : 534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "2982e75d0fb3116f",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755673245,
+          "stop" : 1614755674849,
+          "duration" : 1604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "2e5d58394dede5f8",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755670468,
+          "stop" : 1614755670721,
+          "duration" : 253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "d8147bfd7f5f6aaf",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755669733,
+          "stop" : 1614755670023,
+          "duration" : 290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "a7a0e9aaa213b759",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755669357,
+          "stop" : 1614755669730,
+          "duration" : 373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "d4a94396c1274962",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755670227,
+          "stop" : 1614755670460,
+          "duration" : 233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "86c66563beb31598",
+        "parentUid" : "5513357f16f848a8882dafb0ccd2e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614755670724,
+          "stop" : 1614755670953,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      } ],
+      "uid" : "5513357f16f848a8882dafb0ccd2e2f9"
+    }, {
+      "name" : "18600-MainThread",
+      "children" : [ {
+        "name" : "用户名为空",
+        "uid" : "1d26ade9906d9431",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762370312,
+          "stop" : 1614762370537,
+          "duration" : 225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "密码错误",
+        "uid" : "2250024194584858",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762369867,
+          "stop" : 1614762370079,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "d62a4ddd0e6132c",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762370766,
+          "stop" : 1614762372580,
+          "duration" : 1814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户名错误",
+        "uid" : "f48420b1285d92e1",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762370082,
+          "stop" : 1614762370301,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "4315a2d27bd34ba8",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762369149,
+          "stop" : 1614762369373,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "f3931514a2d23418",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762372584,
+          "stop" : 1614762373933,
+          "duration" : 1349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "密码为空",
+        "uid" : "7d060ba8a638898a",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762370542,
+          "stop" : 1614762370761,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "正常登录",
+        "uid" : "dbb42a55f30327a5",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762369652,
+          "stop" : 1614762369862,
+          "duration" : 210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'biaoti': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "获取列表",
+        "uid" : "59e473958071caa2",
+        "parentUid" : "01a6437b532ef9b11c9955977a1333b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614762369378,
+          "stop" : 1614762369650,
+          "duration" : 272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01a6437b532ef9b11c9955977a1333b0"
+    }, {
+      "name" : "5092-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "e2428b5f6145a11c",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732549068,
+          "stop" : 1614732549256,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "800f5a046896616b",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732548881,
+          "stop" : 1614732549068,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "11fcdd9d5790a80f",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732543764,
+          "stop" : 1614732545595,
+          "duration" : 1831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase with functions",
+        "uid" : "dd03e1da94bfe01d",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732554858,
+          "stop" : 1614732556484,
+          "duration" : 1626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "f0f6b2a08ee1e5ec",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732549271,
+          "stop" : 1614732549482,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户名为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "51bcf4f87f4f3296",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732549482,
+          "stop" : 1614732549702,
+          "duration" : 220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '密码为空', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "登录",
+        "uid" : "264f8f722bb55cf1",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732548397,
+          "stop" : 1614732548865,
+          "duration" : 468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常登录', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+      }, {
+        "name" : "list",
+        "uid" : "3f046175ddc310b1",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732545599,
+          "stop" : 1614732548393,
+          "duration" : 2794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "request methods testcase: reference testcase",
+        "uid" : "162150832ec21812",
+        "parentUid" : "23f19f3e51572578e033af03d93402b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614732549702,
+          "stop" : 1614732554852,
+          "duration" : 5150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23f19f3e51572578e033af03d93402b9"
+    } ],
+    "uid" : "62dc426f1b7186dd39b6f22a2b7abb5c"
+  } ]
+}

@@ -1,0 +1,148 @@
+{
+  "uid" : "c26d5ae5d85c8610",
+  "name" : "request methods testcase: reference testcase",
+  "fullName" : "testcases.demo_testcase_ref_test.TestCaseDemoTestcaseRef#test_start",
+  "historyId" : "ce32caeb2d7a7bbedb568b0876d60186",
+  "time" : {
+    "start" : 1614736007238,
+    "stop" : 1614736008938,
+    "duration" : 1700
+  },
+  "description" : "TestCase ID: 57e9fe8a-1ef9-4e9b-954f-c7b1bc3802b6",
+  "descriptionHtml" : "<p>TestCase ID: 57e9fe8a-1ef9-4e9b-954f-c7b1bc3802b6</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 57e9fe8a-1ef9-4e9b-954f-c7b1bc3802b6",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: request with functions",
+      "time" : {
+        "start" : 1614736007238,
+        "stop" : 1614736008703,
+        "duration" : 1465
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: get with params",
+        "time" : {
+          "start" : 1614736007238,
+          "stop" : 1614736008237,
+          "duration" : 999
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "step: post raw text",
+        "time" : {
+          "start" : 1614736008237,
+          "stop" : 1614736008459,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "step: post form data",
+        "time" : {
+          "start" : 1614736008459,
+          "stop" : 1614736008703,
+          "duration" : 244
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "step: post form data",
+      "time" : {
+        "start" : 1614736008703,
+        "stop" : 1614736008923,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5bf3b92991d3625a",
+      "name" : "stderr",
+      "source" : "5bf3b92991d3625a.txt",
+      "type" : "text/plain",
+      "size" : 13258
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "demo_testcase_ref_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseDemoTestcaseRef"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "2032-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.demo_testcase_ref_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c26d5ae5d85c8610.json",
+  "parameterValues" : [ ]
+}

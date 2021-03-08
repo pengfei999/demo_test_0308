@@ -1,0 +1,52 @@
+2021-03-03 16:18:01.893 | INFO     | httprunner.runner:test_start:450 - Start to run testcase: 登录, TestCase ID: 626cb1f5-50b8-49fc-aa7c-32510bcc1df6
+2021-03-03 16:18:01.894 | INFO     | httprunner.runner:__run_step:292 - run step begin: 登录 >>>>>>
+2021-03-03 16:18:02.138 | DEBUG    | httprunner.client:request:186 - client IP: 172.31.104.30, Port: 57744
+2021-03-03 16:18:02.138 | DEBUG    | httprunner.client:request:194 - server IP: 120.24.97.214, Port: 8000
+2021-03-03 16:18:02.139 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : http://api.keyou.site:8000/user/login/
+headers  : {
+    "User-Agent": "python-requests/2.24.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "HRUN-Request-ID": "HRUN-626cb1f5-50b8-49fc-aa7c-32510bcc1df6-481894",
+    "Content-Length": "42"
+}
+cookies  : {}
+body     : {
+    "username": "keyou1",
+    "password": 123456
+}
+
+2021-03-03 16:18:02.146 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.16.1",
+    "Date": "Wed, 03 Mar 2021 08:18:01 GMT",
+    "Content-Type": "application/json",
+    "Connection": "keep-alive",
+    "Vary": "Accept, Origin",
+    "Allow": "POST, OPTIONS",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Length": "227"
+}
+cookies  : {}
+encoding : None
+content_type : application/json
+body     : {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImtleW91MSIsImV4cCI6MTYxNDg0NTg4MSwiZW1haWwiOiJrZXlvdTEwMEBxcS5jb20ifQ.dKmZhqnb0RPW5PIr9HqDKYRBm7SsWAuVjPwWXexRFVA",
+    "user_id": 2,
+    "username": "keyou1"
+}
+
+2021-03-03 16:18:02.147 | INFO     | httprunner.client:request:217 - status_code: 200, response_time(ms): 244.35 ms, response_length: 0 bytes
+2021-03-03 16:18:02.147 | INFO     | httprunner.response:extract:176 - extract mapping: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImtleW91MSIsImV4cCI6MTYxNDg0NTg4MSwiZW1haWwiOiJrZXlvdTEwMEBxcS5jb20ifQ.dKmZhqnb0RPW5PIr9HqDKYRBm7SsWAuVjPwWXexRFVA'}
+2021-03-03 16:18:02.147 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2021-03-03 16:18:02.147 | INFO     | httprunner.response:validate:246 - assert body contains token(str)	==> pass
+2021-03-03 16:18:02.147 | INFO     | httprunner.runner:__run_step:304 - run step end: 登录 <<<<<<
+
+2021-03-03 16:18:02.148 | INFO     | httprunner.runner:test_start:460 - generate testcase log: E:\demo_test\logs\626cb1f5-50b8-49fc-aa7c-32510bcc1df6.run.log

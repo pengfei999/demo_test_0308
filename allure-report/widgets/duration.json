@@ -1,0 +1,91 @@
+[ {
+  "uid" : "fbec838526f3538",
+  "name" : "正常登录",
+  "time" : {
+    "start" : 1614911840379,
+    "stop" : 1614911840830,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77972e35ee79bd53",
+  "name" : "获取列表",
+  "time" : {
+    "start" : 1614911839461,
+    "stop" : 1614911840376,
+    "duration" : 915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1897827ae88d3700",
+  "name" : "密码为空",
+  "time" : {
+    "start" : 1614911841478,
+    "stop" : 1614911841680,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "362b40d8f8378e9c",
+  "name" : "用户名为空",
+  "time" : {
+    "start" : 1614911841256,
+    "stop" : 1614911841471,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf6143512847dc2a",
+  "name" : "登录",
+  "time" : {
+    "start" : 1614911838487,
+    "stop" : 1614911839459,
+    "duration" : 972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5002098664b5e57",
+  "name" : "密码错误",
+  "time" : {
+    "start" : 1614911840833,
+    "stop" : 1614911841036,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c9f053060cb40f2",
+  "name" : "request methods testcase: reference testcase",
+  "time" : {
+    "start" : 1614911841684,
+    "stop" : 1614911844572,
+    "duration" : 2888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cca2e8d6675203e",
+  "name" : "用户名错误",
+  "time" : {
+    "start" : 1614911841038,
+    "stop" : 1614911841253,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c114cf0b86c0355",
+  "name" : "request methods testcase with functions",
+  "time" : {
+    "start" : 1614911844574,
+    "stop" : 1614911846204,
+    "duration" : 1630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

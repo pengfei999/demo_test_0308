@@ -1,0 +1,118 @@
+{
+  "uid" : "7616043b0e5b1d42",
+  "name" : "获取列表",
+  "fullName" : "testcases.api_login_list_test.TestCaseApiLoginList#test_start",
+  "historyId" : "fce54980696b5f53e884ae9e9ae680cd",
+  "time" : {
+    "start" : 1614759482154,
+    "stop" : 1614759482463,
+    "duration" : 309
+  },
+  "description" : "TestCase ID: 848e9968-9741-4974-8e07-2366c6721081",
+  "descriptionHtml" : "<p>TestCase ID: 848e9968-9741-4974-8e07-2366c6721081</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 848e9968-9741-4974-8e07-2366c6721081",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: 登录",
+      "time" : {
+        "start" : 1614759482157,
+        "stop" : 1614759482362,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: 登录",
+        "time" : {
+          "start" : 1614759482158,
+          "stop" : 1614759482361,
+          "duration" : 203
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "step: 获取列表",
+      "time" : {
+        "start" : 1614759482362,
+        "stop" : 1614759482462,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7d3202d42894e967",
+      "name" : "stderr",
+      "source" : "7d3202d42894e967.txt",
+      "type" : "text/plain",
+      "size" : 8021
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "api_login_list_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseApiLoginList"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "17768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.api_login_list_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7616043b0e5b1d42.json",
+  "parameterValues" : [ ]
+}

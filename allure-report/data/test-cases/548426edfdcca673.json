@@ -1,0 +1,91 @@
+{
+  "uid" : "548426edfdcca673",
+  "name" : "登录",
+  "fullName" : "testcases.api_login_test.TestCaseApiLogin#test_start",
+  "historyId" : "a194d43598a857d21230b4a780a24cbb",
+  "time" : {
+    "start" : 1614759669891,
+    "stop" : 1614759670114,
+    "duration" : 223
+  },
+  "description" : "TestCase ID: 86ae5779-91c2-4caa-a094-6cc29996e15f",
+  "descriptionHtml" : "<p>TestCase ID: 86ae5779-91c2-4caa-a094-6cc29996e15f</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 86ae5779-91c2-4caa-a094-6cc29996e15f",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: $biaoti",
+      "time" : {
+        "start" : 1614759669904,
+        "stop" : 1614759670113,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4b5e8124e7bd946b",
+      "name" : "stderr",
+      "source" : "4b5e8124e7bd946b.txt",
+      "type" : "text/plain",
+      "size" : 2702
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "api_login_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseApiLogin"
+  }, {
+    "name" : "host",
+    "value" : "MS-DEEXUVTYRWMC"
+  }, {
+    "name" : "thread",
+    "value" : "15840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.api_login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "548426edfdcca673.json",
+  "parameterValues" : [ "{'biaoti': '用户名错误', 'username': 'keyou1', 'password': '123456', 'status_code': 200, 'body_msg': 'token'}" ]
+}
