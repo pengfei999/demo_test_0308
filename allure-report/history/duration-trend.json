@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 35,
+  "reportUrl" : "http://localhost:8080/job/test_report/35/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4837
+  }
+}, {
   "buildOrder" : 34,
   "reportUrl" : "http://localhost:8080/job/test_report/34/allure",
   "reportName" : "AllureReport",
@@ -123,13 +130,6 @@
 }, {
   "buildOrder" : 16,
   "reportUrl" : "http://localhost:8080/job/test_report/16/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 5660
-  }
-}, {
-  "buildOrder" : 15,
-  "reportUrl" : "http://localhost:8080/job/test_report/15/allure",
   "reportName" : "AllureReport",
   "data" : {
     "duration" : 5660

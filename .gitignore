@@ -1,5 +1,5 @@
 .env
-reports/*
+report/*
 __pycache__/*
 *.pyc
 .python-version
