@@ -1,0 +1,27 @@
+
+config:
+    name: 登录
+    variables:
+        username: keyou1
+        password: 123456
+    base_url: http://api.keyou.site:8000
+    verify: False
+    export: [token]
+
+teststeps:
+-
+    name: 登录
+    request:
+        method: POST
+        url: /user/login/
+        headers:
+            Content-Type: "application/json"
+        json:
+            username: $username
+            password: $password
+    extract:
+        token: body.token
+    validate:
+        - eq: ["status_code", 200]
+        - {"check": "body", "comparator": "contains", "expect": token}
+ #       - {"check": "body.user_id", "comparator": "eq", "expect": 2}

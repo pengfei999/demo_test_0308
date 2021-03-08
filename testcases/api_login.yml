@@ -1,8 +1,8 @@
 
 config:
-    name: 登录
+    name: $biaoti
     parameters:
-        title-username-password-status_code-body_msg: ${get_accounts()}
+        biaoti-username-password-status_code-body_msg: ${get_accounts()}
 #         - ["登录","keyou1", "123456",200,"token"]
 #         - ["登录","keyou1", "1234567",400,"no_field_errors"]
  #        - ["登录","keyou122", "123456",200,"no_field_errors"]
@@ -15,7 +15,7 @@ config:
 
 teststeps:
 -
-    name: $title
+    name: 登录
     request:
         method: POST
         url: /user/login/

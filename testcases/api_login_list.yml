@@ -1,14 +1,14 @@
 
 config:
-    name: list
+    name: 获取列表
     base_url: http://api.keyou.site:8000
     verify: False
 teststeps:
 -
-    name: login
-    testcase: testcases\api_login.yml
+    name: 登录
+    testcase: testcases\api_login_api.yml
 -
-    name: get_list
+    name: 获取列表
     request:
         method: GET
         url: /projects/
