@@ -4,11 +4,11 @@
 
 import pytest
 from httprunner import Parameters
-
+import allure
 
 from httprunner import HttpRunner, Config, Step, RunRequest, RunTestCase
 
-
+@allure.epic("环保系统")
 class TestCaseApiLogin(HttpRunner):
     @pytest.mark.parametrize(
         "param",

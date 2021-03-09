@@ -4,7 +4,7 @@
 
 import sys
 from pathlib import Path
-
+import allure
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
@@ -14,7 +14,7 @@ from testcases.demo_testcase_request_test import (
     TestCaseDemoTestcaseRequest as DemoTestcaseRequest,
 )
 
-
+@allure.epic("环保系统")
 class TestCaseDemoTestcaseRef(HttpRunner):
 
     config = (

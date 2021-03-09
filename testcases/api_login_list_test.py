@@ -12,7 +12,7 @@ from httprunner import HttpRunner, Config, Step, RunRequest, RunTestCase
 
 from testcases.api_login_api_test import TestCaseApiLoginApi as ApiLoginApi
 
-
+@allure.epic("环保系统")
 class TestCaseApiLoginList(HttpRunner):
 
     config = Config("获取列表").base_url("http://api.keyou.site:8000").verify(False)
